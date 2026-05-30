@@ -46,6 +46,9 @@ coverage/
 *.swp
 *.swo
 
+# === Claude Code (개인 로컬 설정) ===
+.claude/settings.local.json
+
 # === OS ===
 .DS_Store
 Thumbs.db
