@@ -54,6 +54,21 @@ coverage/
 Thumbs.db
 desktop.ini
 
+# === Expo / React Native ===
+.expo/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+*.tsbuildinfo
+# 생성되는 네이티브 폴더 (expo prebuild 시)
+/ios
+/android
+# 서명 키 등
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
 # === Misc ===
 *.local
 .tmp/
